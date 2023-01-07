@@ -1,0 +1,5 @@
+2022-10-27 17:25:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "Gyna" [22018-214]
+2022-10-28 17:11:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEES" not found; SQL statement:
+INSERT INTO employees (id, title, firstName, surname, jobTitle, department) VALUES (1, 'Mr.','Gyna', 'Vishwakarma','Trainer', 'FINANCE') [42102-214]
